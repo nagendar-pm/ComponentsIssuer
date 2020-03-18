@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "electrical-lab-258312",
+  "private_key_id": "31017c64dbcc32a2582d0816f4f995fcb3e8261e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQpy7JlpbEzBcP\nAGDlYjcH1psaojPP1Q8mWjCYhoYw4z94DNkXDno1IhSoqvfsn5ZWl9baZgHKP80L\nPdozCwLlsrU5uPfp8mfxmv6GDBhulSXr6Msl1rVmAbvB80+hXC+QDNkXiCCL33m5\ntkgKdzWV06oZSPXYv3Y7JYhFDCDK2dlhUIcpuryMHRqIOb7+4N2EY/+XPvA7slOK\noZIaJwSAloAeK8u5OeJusTm6aABWnwariESU3TaUKvN12U9QYo+Bk7w66OXJGWFI\nHadab3CNU5rAroBQXf19Hvc7iqwc3a1KMIcA1UoVrbyKBLMmWoQwcnkZXS1tcfKt\nkkj/s7aJAgMBAAECggEAFmce60rZiw2JO8V8AeEE3Nj2XBqWks3y45irL1NBUPoz\nWDvT6sl1hmMvgekid8PuR8OjkF1Du7AUP0zfstuPrvM8SVNyfepWrf6o7aJalLP7\np3veJQTLwwU0YEeUMRR1cGNqwz+s0+vVlWKsk0AXryuz76VRbTloc8MMwbIiyri9\n4J28DdYmicL79LTZrqXCMGmHz8qaFcEXGGr4Z8LtUV8pCctZQrwwcL8Ktmn4XmGW\nh6QXEmGZUWieoLoaJW5v56zOpU68FD0PIWT6WH6IZ3J/4e+pbLzRja1Is2Q0Ne2i\nmd4gdxKKic0jYKzG1YKAzaYvHksZKEVyzXudYGAoEQKBgQDnKRBND3YmqQ/JVeqn\nD4hQwUA5C75wM92MPXFjm8iHUuvdFXySewwfN68o3do7fczMT1/tGqhAikwdHB9/\nyj7CrBfKdfTeF03BwtZhVBOe04ZqE3Z5OIvga+O4Lo6nquksqUDOyHym3ifaFHRw\nTsDkSzI2efbwwpRmGGRBRPslGQKBgQDnEvhIH/s8mOk/G7Ix7xDr5H9szJ492XwB\nTBXVoi3A7ovSIFdAjWxRZ1BODAm/+jBTiVV/HG2uWEYhhiAHI+0UcQKVapZFY4Hk\nfeJywsyDaWTNA1TNFSD4+2P4Y0LWqMcjhAckNvIBzxIvr1OWE4MTO0waBa5yNPpQ\nlpoHKnNa8QKBgFi+Ywuyi+F7thvNaDCKvgKCrm04HPxmbP+R9x4OiIWrR/Gwdgqm\nQpkZf51ozodYXG9zaZhVS5K7hU0HpvAgbMe/2cJYVpGM0MU6T6M96+pluoyuvCT9\nmHWn9dyXwxyLeMk0kTTRs0k8sIAAqlMTaOo8FCLl3+++Q8qOQq7sFJ7BAoGBAJSt\nqAMAUO8UlD9+2pE2eXTOeQ7QOaEiJp/PDN2AlF/nHR/+nyVx2ZgnGYyeQke7+wxE\n+TXoXMopEjbPzhvKCel1LWxmQHo1JIaYWPPuUxja33jqA85RIf4SAqj3dTIZNsir\nUs0CbYSsb88uyGFv/I6LQNQdg7kITWc8/65MqhyBAoGAX/Eo8qljC+VlfW7XPunH\ngaBdLYHNtcVEyKePQ94GwfshIGk7s7Tvsx17LjE32ETZaXDafS9YE5b/oPmLeeUy\nv0a2aTX4eaN4qiU4DzKbNT9f62vAwyRjs8nsqmrJzaS7OuBVFJjOGGBhkNcwrqxV\nYFMcGff1cKruhJT3szLKmOQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "electricallabcomp@electrical-lab-258312.iam.gserviceaccount.com",
+  "client_id": "110358046601438463213",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/electricallabcomp%40electrical-lab-258312.iam.gserviceaccount.com"
+}

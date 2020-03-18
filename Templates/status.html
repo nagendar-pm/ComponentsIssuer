@@ -1,0 +1,83 @@
+
+<!-- History page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	{% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>Electrical Lab</title>
+    {% endif %}
+</head>
+<body style="background: url('../static/image.jpg'); background-size: cover;background-position: center; background-attachment: fixed;font-family: sans-serif;">
+	
+	<div class="container" style="height: 100% ;position: relative; overflow: visible;">
+		<div id="formContent" style="max-width: 1500px; margin-top: 20px; background-color: #ffffff; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);">
+  
+	<h1 style="margin:5px; text-align: center;text-shadow: 1.5px 1.5px rgba(0,0,0,0.5)"><br>History</h1>
+	        <hr style="margin-left: 10px; margin-right: 10px;">
+			<div style="margin-left: 10px; margin-right: 10px;">
+          {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+              {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">
+	                <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                  {{ message }}
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endwith %}
+	        <div style="margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+	{% if time %}
+		<table class="table table-bordered table-hover table-responsive-sm table-responsive-md">
+			  <thead>
+			    <tr>
+			      <th scope="col">Date</th>
+			      <th scope="col">Time</th>
+			      <th scope="col">Components</th>
+			      <th scope="col">Status</th>
+			    </tr>
+			  </thead>
+		<tbody>
+		{% for i in range(val|length) %}
+				  
+				    <tr>
+				      <td>{{ time[i][0] }}</th>
+				      <td>{{ time[i][1] }}</td>
+				      <td>{{ comp[i] }}</td>
+					  {% if val[i] == 'Returned' %}
+					    <td style="background-color: rgb(183, 225, 205)">{{ val[i] }}</td>
+					  {% elif val[i] == 'Consumed' %}
+					    <td style="background-color: rgb(225, 0, 0)">{{ val[i] }}</td>
+					  {% else %}
+					    <td style="background-color: orange ">{{ val[i] }}</td>
+				      {% endif %}
+				    </tr>
+				  
+		{% endfor %}
+		</tbody>
+				</table>
+		{% else %}
+		{% endif %}
+        </div>
+	        </div>
+	        <div style="text-align: center;">
+        <div class="text-muted" >
+            Want to go to Login page?<a href="{{ url_for('index') }}">Click Here</a>
+        </div><br>
+    </div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
